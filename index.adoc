@@ -1,5 +1,5 @@
 = Kitob haqida
-
+:icons: font
 == Section 1
 
 Bu yerda matn yoziladi
@@ -7,3 +7,18 @@ Bu yerda matn yoziladi
 == Section 2
 
 Bu yerda matn yoziladi
+
+[source,python]
+----
+talabalar =['hasan', 'husan', 'olim', 'botir'] # <1>
+
+baholangan_talabalar={} # <2>
+
+while talabalar:
+    talaba=talabalar.pop()
+    baho=input(f"{talaba.title()}ning bahosini kiriting:")
+    print=input(f"{talaba.title()} baholandi")
+    baholangan_talabalar[talaba] =baho
+----
+<1> talabalr nomli lugat yaratildi va unga qiymat berildi
+<2> baholangan_talabalar nomli 'ozgaruvchi elon qilindi'
