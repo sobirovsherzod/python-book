@@ -1,1 +1,3 @@
 # python-book
+
+Sobirov Sherzod
