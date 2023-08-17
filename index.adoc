@@ -1,0 +1,9 @@
+= Kitob haqida
+
+== Section 1
+
+Bu yerda matn yoziladi
+
+== Section 2
+
+Bu yerda matn yoziladi
